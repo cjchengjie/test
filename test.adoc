@@ -1,0 +1,7 @@
+= 00030.3 Release Note for QCS8550.LA.1.0
+Release Notes
+QCS8550.LA.1.0
+
+RNO-230428213912 Rev. 1
+
+May 05, 2023
