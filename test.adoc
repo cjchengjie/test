@@ -16,12 +16,39 @@ _斜体显示，两个单下划线包夹即可。_ +
 句子内部##高亮##显示 +
 
 :hardbreaks:  //代码整个文章回车即换行，放在0级标题后
-
 [line-through]#删除线，外观中横删除#
+[line-through]#删除线，外观中横删除#
+[red]#abc#
 [underline]#线在下面#
 [red]#文本红色#
+[small]#小体字#
+//下面格式生效
+.^上标^
+abc^2^
+下标：abc~2~
+等宽字体：`今天是个好天气` 今天是个好天气
 
-[%hardbreaks] //次字符后面的文字可以用回车换行，遇到空白行失效。
+=== 引用
+[quote]
+____
+明月几时有
+把酒问青天
+____
+
+
+[quote,苏轼，《水调歌头》]
+____
+明月几时有
+把酒问青天
+____
+==== 代码引用
+[source,python]
+____
+apt install git
+____
+=== 列表
+
+[%hardbreaks] //此字符后面的文字可以用回车换行，遇到空白行失效。
 To confirm an account is active, users should log in to https://chipcode.qti.qualcomm.com with their Qualcomm ID.
 If users do not have a Qualcomm ID account, they can register for an account at https://createpoint.qti.qualcomm.com.
 Once the account is set up, log in to https://chipcode.qti.qualcomm.com to establish download permissions.
