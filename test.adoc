@@ -5,3 +5,29 @@ QCS8550.LA.1.0
 RNO-230428213912 Rev. 1
 
 May 05, 2023
+
+*粗体显示* 非粗体显示 +
+句内**粗体**显示 +
+
+_斜体显示，两个单下划线包夹即可。_ +
+句子内部需要__四个单下划线__即可显示斜体。 +
+
+#高亮# +
+句子内部##高亮##显示 +
+
+:hardbreaks:  //代码整个文章回车即换行，放在0级标题后
+
+[line-through]#删除线，外观中横删除#
+[underline]#线在下面#
+[red]#文本红色#
+
+[%hardbreaks] //次字符后面的文字可以用回车换行，遇到空白行失效。
+To confirm an account is active, users should log in to https://chipcode.qti.qualcomm.com with their Qualcomm ID.
+If users do not have a Qualcomm ID account, they can register for an account at https://createpoint.qti.qualcomm.com.
+Once the account is set up, log in to https://chipcode.qti.qualcomm.com to establish download permissions.
+Users must use the Qualcomm ChipCode username and password for the sync scripts. For example, a
+username will be something similar to person@company.com <mailto:person@company.com>.
+<center>
+*For additional information* or to submit technical questions, go to: https://www.qualcomm.com/support +
+</center>
+Confidential - Qualcomm Technologies, Inc. and/or its affiliated companies -5月Contain Trade Secrets +
